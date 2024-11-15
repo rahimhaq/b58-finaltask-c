@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping Collection</title>
+    <link rel="stylesheet" href="../css/nav.css" />
+    <link rel="stylesheet" href="../css/collection-detail.css">
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar-left">
+        <a href="collections.html" class="nav-button" style="font-weight: 700"
+          >⬅ Back</a>
+      </div>
+      <div class="navbar-right">
+        <a href="login.html" class="nav-button">Login</a>
+        <a href="register.html" class="nav-button">Register</a>
+      </div>
+    </nav>
+
+    <section id="collection-detail">
+      <div class="header">
+        <h1>Shopping</h1>
+        <p class="status">10/10 items bought</p>
+        <div class="progress-bar">
+          <div class="progress" style="width: 25%"></div>
+        </div>
+      </div>
+
+      <div class="tasks">
+        <h2>Items</h2>
+        <ul>
+          <li class="task">
+            <input type="checkbox" id="task1" checked />
+            <label for="task1">Buy milk and eggs</label>
+          </li>
+          <li class="task">
+            <input type="checkbox" id="task2" checked />
+            <label for="task2">Order new headphones</label>
+          </li>
+          <li class="task">
+            <input type="checkbox" id="task3" checked />
+            <label for="task3">Get groceries for the week</label>
+          </li>
+          <li class="task">
+            <input type="checkbox" id="task4" checked />
+            <label for="task4">Buy a Hanphone</label>
+          </li>
+          <li class="task">
+            <input type="checkbox" id="task4" checked />
+            <label for="task4">Buy a birthday gift</label>
+          </li>
+          <li class="task">
+            <input type="checkbox" id="task4" checked />
+            <label for="task4">Buy a softdrink</label>
+          </li>
+          <li class="task">
+            <input type="checkbox" id="task4" checked />
+            <label for="task4">Beli casing hp</label>
+          </li>
+          <li class="task">
+            <input type="checkbox" id="task4" checked />
+            <label for="task4">Beli celana panjang</label>
+          </li>
+          <li class="task">
+            <input type="checkbox" id="task4" checked />
+            <label for="task4">Beli baju kaos</label>
+          </li>
+          <li class="task">
+            <input type="checkbox" id="task4" checked />
+            <label for="task4">Beli sarung</label>
+          </li>
+        </ul>
+      </div>
+
+      <div class="add-task">
+        <button class="add-task-button" onclick="addNewTask()">+ Add New Item</button>
+      </div>
+    </section>
+
+    <script>
+      function addNewTask() {
+        alert("Fitur tambah item untuk koleksi 'Shopping' akan segera hadir!");
+      }
+    </script>
+  </body>
+</html>
