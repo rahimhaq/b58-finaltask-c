@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Collection</title>
+    <link rel="stylesheet" href="../css/collection-detail.css" />
+    <link rel="stylesheet" href="../css/nav.css">
+  </head>
+  <body>
+    <!-- Header -->
+    <nav class="navbar">
+        <div class="navbar-left">
+          <div class="navbar-left">
+            <img src="../img/haq.png" alt="Dumbways Logo" style="width: 70px" />
+            <a href="collections.html" class="nav-button">Collections</a>
+          </div>
+          <a href="collections.html" class="nav-button" style="font-weight: 700"
+            >⬅ Back</a
+          >
+        </div>
+        <div class="navbar-right">
+          <a href="login.html" class="nav-button">Login</a>
+          <a href="register.html" class="nav-button">Register</a>
+        </div>
+      </nav>
+
+    <!-- Collection Detail -->
+    <section id="collection-detail">
+      <div class="header">
+        <h1>Personal</h1>
+        <p class="status">3/6 tasks completed</p>
+        <div class="progress-bar">
+          <div class="progress" style="width: 50%"></div>
+        </div>
+      </div>
+
+      <!-- Tasks List -->
+      <div class="tasks">
+        <h2>Tasks</h2>
+        <ul>
+          <li class="task">
+            <input type="checkbox" id="task1" checked />
+            <label for="task1">Call Mom</label>
+          </li>
+          <li class="task">
+            <input type="checkbox" id="task2" />
+            <label for="task2">Meditate for 10 minutes</label>
+          </li>
+          <li class="task">
+            <input type="checkbox" id="task3" checked />
+            <label for="task3">Read 20 pages of a book</label>
+          </li>
+          <li class="task">
+            <input type="checkbox" id="task4" />
+            <label for="task4">Plan weekend trip</label>
+          </li>
+          <li class="task">
+            <input type="checkbox" id="task5" />
+            <label for="task5">Organize wardrobe</label>
+          </li>
+          <li class="task">
+            <input type="checkbox" id="task6" checked />
+            <label for="task6">Write in journal</label>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Add Task -->
+      <div class="add-task">
+        <button class="add-task-button" onclick="addNewTask()">+ Add New Task</button>
+      </div>
+    </section>
+
+    <script>
+      function addNewTask() {
+        alert("Fitur tambah tugas untuk koleksi 'Personal' akan segera hadir!");
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task Collections</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/nav.css">
+  </head>
+  <body>
+    <!-- Header -->
+    <nav class="navbar">
+      <div class="navbar-left">
+        <img
+          src="../img/haq.png"
+          alt="Dumbways Logo"
+          style="width: 70px;"
+        />
+        <a href="collections.html" class="nav-button" style="font-weight: 700">Collections</a>
+      </div>
+
+      <div class="navbar-right">
+        <a href="login.html" class="nav-button">Login</a
+        >
+        <a href="register.html" class="nav-button">Register</a>
+      </div>
+      <!-- Hamburger icon for mobile -->
+      <div class="hamburger-menu">
+        <i class="fas fa-bars" onclick="toggleHamburgerMenu()"></i>
+      </div>
+    </nav>
+    <!-- Container Koleksi -->
+    <section id="collections">
+      <h1>Collections</h1>
+      <!-- Koleksi Cards -->
+      <div class="collection-card">
+        <div class="icon">📄</div>
+        <a style="text-decoration: none; color: #000;" href="collection-school.html"><h3>School</h3></a>
+        <p class="status">2/9 done</p>
+        <div class="badge">🕐</div>
+      </div>
+
+      <div class="collection-card">
+        <div class="icon">📄</div>
+        <a style="text-decoration: none; color: #000;" href="collection-work.html"><h3>Work</h3></a>
+        <p class="status">2/5 done</p>
+        <div class="badge">🕐</div>
+      </div>
+
+      <div class="collection-card">
+        <div class="icon">📄</div>
+        <a style="text-decoration: none; color: #000;" href="collection-shopping.html"><h3>Shopping</h3></a>
+        <p class="status">All 10 done!</p>
+        <div class="badge">✅</div>
+      </div>
+
+      <div class="collection-card">
+        <div class="icon">📄</div>
+        <a style="text-decoration: none; color: #000;" href="collection-personal.html"><h3>Personal</h3></a>
+        <p class="status">1/3 done</p>
+        <div class="badge">🕐</div>
+      </div>
+
+      <!-- Tambah Koleksi Card -->
+      <div class="add-collection" onclick="addCollection()">
+        <span>+</span>
+      </div>
+    </section>
+
+  </body>
+</html>
